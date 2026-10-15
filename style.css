@@ -11,7 +11,8 @@
     --blue-soft: #F0F6F9;
     --green-soft: #EDF6F0;
     --green: #A8C7B5;
-    --nour: #6F828E;
+   --text-light: #243746;
+   --nour:#6F828E;
 }
 
 * {
@@ -227,7 +228,7 @@ body {
     background: linear-gradient(135deg, #4F8BAE, #6FA8C9);
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(79, 139, 174, 0.25);
-    color: var(--text-light);
+    color: var(--text-light)
 }
 
 .flight-result-card {
@@ -310,52 +311,41 @@ body {
     display: none;
 }
 
-/* --- OVERRIDES (Zidna Specificity bla !important) --- */
-
-body .text-white,
-.hero-section .text-white,
-.offer-card .text-white {
-    color: #243746;
+.text-white {
+    color: #243746 !important;
 }
 
-body .text-white-50,
-.hero-section .text-white-50,
-.offer-card .text-white-50 {
-    color: var(--nour);
+.text-white-50 {
+    color:var(--nour) !important;
 }
 
-body .text-warning,
-.search-widget .text-warning,
-.offer-card .text-warning {
-    color: var(--gold-hover);
+.text-warning {
+    color: var(--gold-hover) !important;
 }
 
-body .bg-warning,
-.offer-card .bg-warning {
-    background-color: var(--gold-primary);
+.bg-warning {
+    background-color: var(--gold-primary) !important;
 }
 
-body .text-dark,
-.offer-card .text-dark {
-    color: var(--text-light);
+.text-dark {
+    color: var(--text-light) !important; 
 }
 
-body .border-secondary,
-.search-widget .border-secondary {
-    border-color: var(--card-border);
+.border-secondary {
+    border-color: var(--card-border) !important;
 }
 
-body .btn-outline-secondary {
-    border-color: #B9C9D1;
-    color: #405563;
+.btn-outline-secondary {
+    border-color: #B9C9D1 !important;
+    color: #405563 !important;
 }
 
-body .btn-outline-secondary:hover {
-    background: #F0F6F9;
+.btn-outline-secondary:hover {
+    background: #F0F6F9 !important;
 }
 
-body .input-group-text {
-    color: var(--gold-hover);
+.input-group-text {
+    color: var(--gold-hover) !important;
 }
 
 #offers {
@@ -372,9 +362,12 @@ footer .navbar-brand {
     color: #243746;
 }
 
-footer .text-white-50,
+footer .text-white-50 {
+    color: #6F828E !important;
+}
+
 footer a.text-white-50 {
-    color: #6F828E;
+    color: #6F828E !important;
 }
 
 footer a.custom-footer-link:hover {
@@ -416,7 +409,6 @@ hr.custom-divider {
 #volSelect {
     color: var(--gold-primary);
 }
-
 .text-airvia-dark {
     color: var(--text-light);
 }
