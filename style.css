@@ -11,7 +11,7 @@
     --blue-soft: #F0F6F9;
     --green-soft: #EDF6F0;
     --green: #A8C7B5;
-    --white: #FFFFFF;
+   --text-light: #243746;
 }
 
 * {
@@ -327,7 +327,7 @@ body {
 }
 
 .text-dark {
-    color: #FFFFFF !important;
+    color: var(--text-light) !important; 
 }
 
 .border-secondary {
