@@ -227,7 +227,7 @@ body {
     background: linear-gradient(135deg, #4F8BAE, #6FA8C9);
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(79, 139, 174, 0.25);
-    color: #FFFFFF;
+    color: var(--text-light)
 }
 
 .flight-result-card {
