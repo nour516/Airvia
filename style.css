@@ -305,13 +305,10 @@
         }
 
         .form-control-luxury:focus,
-        .form-select-luxury:focus {
-
-            border-color: var(--gold-primary) !important;
-
-            box-shadow:
-                0 0 0 3px rgba(111, 168, 201, 0.12) !important;
-        }
+       .search-widget .form-select-luxury:focus {
+    border-color: var(--gold-primary);
+    box-shadow: 0 0 0 3px rgba(111, 168, 201, 0.12);
+}
 
         .form-select-luxury option {
 
@@ -530,7 +527,8 @@
         ================================= */
 
         .text-white {
-            color: #243746 !important;
+            color: #243746 !important; ;
+            
         }
 
         .text-white-50 {
@@ -608,18 +606,18 @@
             color: #6F828E !important;
         }
 
-        footer a.text-white-50:hover {
-            color: var(--gold-hover) !important;
-        }
+        footer a.custom-footer-link:hover {
+    color: var(--gold-hover);
+}
 
 
         /* ================================
            HR
         ================================= */
 
-        hr {
-            border-color: #DCE8EE !important;
-        }
+        hr.custom-divider {
+    border-color: #DCE8EE;
+}
 
 
         /* ================================
