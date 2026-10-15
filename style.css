@@ -331,7 +331,9 @@
                     #4F8BAE
                 );
 
-            color: #FFFFFF;
+           
+color: #243746;
+
 
             font-weight: 700;
 
@@ -364,7 +366,9 @@
             box-shadow:
                 0 10px 25px rgba(79, 139, 174, 0.25);
 
-            color: #FFFFFF;
+           
+color: #243746;
+
         }
 
 
@@ -575,28 +579,28 @@
            OFFER SECTION
         ================================= */
 
-        #offers {
-            background-color: #F0F6F9 !important;
-        }
+       #offers {
+    background-color: #F0F6F9;
+}
 
 
         /* ================================
            FOOTER
         ================================= */
 
-        footer {
+       
+footer {
+    background-color: #EAF2F6;
+    border-top: 1px solid #DCE8EE;
+    color: #405563;
+}
 
-            background-color: #EAF2F6 !important;
 
-            border-top:
-                1px solid #DCE8EE !important;
+       
+footer .navbar-brand {
+    color: #243746;
+}
 
-            color: #405563;
-        }
-
-        footer .navbar-brand {
-            color: #243746 !important;
-        }
 
         footer .text-white-50 {
             color: #6F828E !important;
